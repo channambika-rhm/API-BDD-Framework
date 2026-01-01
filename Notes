@@ -1,0 +1,16 @@
+Create org repos:
+URL: https://api.github.com/orgs/{org}/repos
+{org} - path param - org name
+
+Methods for sending JSON file as body parameter:
+1. Serialization - by creating POJO classes
+2. JSON file - using file input stream
+
+Before execution -> Run code to generate token -> Use token in script
+Auth server ->  URL -> input (client id, secret)
+POST request -> output -> token
+
+Response body validation
+1. Inline
+2. JsonPath
+3. Deserialization
